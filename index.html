@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Fetch</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <main>
+        <input type="number" name="" placeholder="Number of Pokemons" id="numberInput">
+        <select name="pokemonSelect" id="pokemonSelect">
+        </select>
+        <div id="pokeCard" class="grass-type ">
+            <img id="pokemonSprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Pokemon image">
+            <div id="pokemonInfo">
+                <h4 id="pokemonType">GRASS</h4>
+                <h3 id="pokemonName">BULBASAUR</h3>
+                <ul>
+                    <li><b>HP:</b> <span id="hp"></span></li>
+                    <li><b>Attack:</b> <span id="attack"></span></li>
+                    <li><b>Defense:</b> <span id="defense"></span></li>
+                    <li><b>Special Attack:</b> <span id="specattack"></span></li>
+                    <li><b>Special Defense:</b> <span id="specdefense"></span></li>
+                    <li><b>Speed:</b> <span id="speed"></span></li>
+                    <li><b>Height:</b> <span id="height"></span> feet</li>
+                    <li><b>Weight:</b> <span id="weight"></span> pounds</li>
+                </ul>
+
+                <div id="abilitiesContainer">
+                   <div>
+                    <h3>Ability</h3>
+                    <h5 id="ability"></h5>
+                   </div>
+                   <div>
+                    <h3>Hidden Ability</h3>
+                    <h5 id="hiddenAbility"></h5>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

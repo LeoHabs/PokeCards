@@ -1,0 +1,118 @@
+body {
+  background-image: url("https://cdn.wallpapersafari.com/58/37/51HU98.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main input {
+  padding: 8px;
+  border-radius: 10px;
+}
+main select {
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  border: red solid 5px;
+  background-color: black;
+  color: white;
+}
+main #pokeCard {
+  height: 800px;
+  width: 600px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 15px black;
+}
+main #pokeCard img {
+  height: 250px;
+  align-self: center;
+  margin-top: 20px;
+}
+main #pokeCard #pokemonInfo {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.7;
+  width: 60%;
+  height: 50%;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+main #pokeCard #pokemonInfo h4 {
+  position: relative;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-end;
+  justify-self: flex-start;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: -50px;
+}
+main #pokeCard #pokemonInfo ul {
+  align-self: center;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+#abilitiesContainer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+#abilitiesContainer div {
+  width: 50%;
+}
+#abilitiesContainer div h5 {
+  height: fit-content;
+  font-size: 16px;
+}
+
+.water-type {
+  background: linear-gradient(180deg, rgb(51, 135, 187) 0%, rgb(47, 217, 194) 100%);
+}
+
+.grass-type {
+  background: linear-gradient(180deg, rgb(14, 164, 9) 0%, rgb(118, 255, 162) 100%);
+}
+
+.fire-type {
+  background: linear-gradient(180deg, rgb(164, 9, 9) 0%, rgb(255, 220, 118) 100%);
+}
+
+.normal-type {
+  background: linear-gradient(180deg, rgb(91, 87, 84) 0%, rgb(255, 255, 255) 100%);
+}
+
+.electric-type {
+  background: linear-gradient(180deg, rgb(254, 240, 0) 59%, rgb(255, 255, 255) 100%);
+}
+
+.ground-type {
+  background: linear-gradient(0deg, rgb(91, 69, 25) 0%, rgb(222, 158, 22) 100%);
+}
+
+.poison-type {
+  background: linear-gradient(0deg, rgb(154, 41, 158) 0%, rgb(215, 22, 222) 32%);
+}
+
+.bug-type {
+  background: linear-gradient(180deg, rgb(50, 255, 0) 0%, rgb(27, 134, 101) 100%);
+}
+
+/*# sourceMappingURL=output.css.map */
