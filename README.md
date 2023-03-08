@@ -4,7 +4,7 @@ PokeCards is a simple web app built with HTML, Sass, and JavaScript that allows 
 ## Getting Started
 To use the PokeCards app, simply visit the following URL in your web browser:
 
-https://pokecards.com/
+https://leohabs.github.io/PokeCards/src/
 
 Once the page loads, you'll see a select list that allows you to choose how many Pokemon you want to view. After selecting the desired number of Pokemon, you can choose one from the select list, and a card will appear with information about that Pokemon.
 
